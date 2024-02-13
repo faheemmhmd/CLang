@@ -1,7 +1,8 @@
 //  function prototype
 #include <stdio.h>
 
-int printHello();
+
+int printHello();// calling the compiler that we have decleard a function 
 
 // main function here
 int main(){
@@ -9,8 +10,7 @@ int main(){
 
     // calling the decleard function
     printHello();
-    char a=printHello();
-    printf("%d",a);
+
     return 0;
 
 }
